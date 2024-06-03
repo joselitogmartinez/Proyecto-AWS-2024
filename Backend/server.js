@@ -16,8 +16,6 @@ the request and parse it into a JavaScript object that can be
 easily manipulated in your server-side code.*/
 app.use(bodyParser.json());
 
-
-
 //connect database
 const URL = process.env.MONGODB_URL;
 
