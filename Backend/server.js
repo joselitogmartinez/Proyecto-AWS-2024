@@ -8,7 +8,7 @@ const app = express();
 dotenv.config();
 
 //specify a port number to run(8070). if that is not available use any available port. ||operator
-const PORT = process.env.PORT || 8070;
+const PORT = 4000;
 
 app.use(cors());
 /* Add the bodyParser middleware to parse JSON requests. will extract the JSON data from 
