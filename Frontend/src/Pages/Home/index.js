@@ -52,7 +52,7 @@ export default function Home() {
 
   return (
     <div className="text-center mb-4">
-      <h5 style={{ textAlign: "center", padding: "3rem" }}>REGISTRO DE ESTUDIANTES DEL 9no.</h5>
+      <h5 style={{ textAlign: "center", padding: "3rem" }}>REGISTRO DE ESTUDIANTES DEL 9no. SEMESTRE DE INGENIERIA DE SOFTWARE</h5>
       <Link to="/add-student">
         <div className="col-4">
           <button className="btn btn-primary" type="submit">
